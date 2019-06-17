@@ -46,7 +46,6 @@ class Subject(db.Model):
 
     name = db.Column(db.String, nullable=False)
     about = db.Column(db.UnicodeText, nullable=False)
-    habitat = db.Column(db.String, nullable=False)
 
     type = db.relationship(SubjectType)
     category = db.relationship(SubjectCategory)

@@ -17,4 +17,3 @@ class IdModel(Model):
 
     created_at = sa.Column(sa.DateTime, server_default=sa.func.now())
     updated_at = sa.Column(sa.DateTime, onupdate=sa.func.now())
-
